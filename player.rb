@@ -1,10 +1,9 @@
 class Player
+
+  attr_reader :code
+  
   def initialize
     @code = []
-  end
-
-  def code
-    @code
   end
   
   def countNumbers(code)

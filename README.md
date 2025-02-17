@@ -21,3 +21,12 @@
 # 4: si humano adivina codigo devuelve que humano gana
 # 5: si no adivina, devuelve un string de 6 caracteres, ⚫ si acerto numero y posicion, ◯ si acerto numero pero no posicion y x si fallo
 # 6: si se logra adivinar el codigo dentro de los 12 intentos humano gana, de lo contrario pierde.
+#
+# VERSION 2.0 (MAQUINA ADIVINA PATRON DADO POR EL HUMANO)
+# la maquina intenta adivinar con 12 chances el codigo dado por el humano, conservando los aciertos y los demas numeros adivinarlos de manera aleatoria.
+# 1: humano ingresa codigo de 4 caracteres
+# 2: maquina genera codigo aleatorio
+# 3: se compara codigo aleatorio con el codigo del humano
+# 4: si hay aciertos, el caracter acertado se mantiene en la misma posicion y los errores nuevamente se generan aleatoriamente.
+# 5: se repite este proceso hasta que se adivine el codigo.
+# 6: si no se adivina el codigo dentro de los 12 intentos la computadora pierde.
