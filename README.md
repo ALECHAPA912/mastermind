@@ -30,3 +30,7 @@
 # 4: si hay aciertos, el caracter acertado se mantiene en la misma posicion y los errores nuevamente se generan aleatoriamente.
 # 5: se repite este proceso hasta que se adivine el codigo.
 # 6: si no se adivina el codigo dentro de los 12 intentos la computadora pierde.
+#
+# VERSION 2.1 (MEJORA DE LA IA PARA LA MAQUINA)
+# se modifica el metodo randomCodeGuesser de la clase Computer para que pueda realizar la adivinanza de manera mas efectiva.
+#

@@ -59,7 +59,8 @@ class Board
     if (human.guessCheck(computerGuess) == '⚫⚫⚫⚫')
       puts "LA MAQUINA ADIVINO EL CODIGO EN #{12 - trials} INTENTOS"
     else
-      puts "LA MAQUINO NO PUDO ADIVINAR EL CODIGO DENTRO DE LOS 12 INTENTOS"
+      puts "LA MAQUINA NO PUDO ADIVINAR EL CODIGO DENTRO DE LOS 12 INTENTOS"
     end
+    p @computer.arrayOfSucess
   end
 end
