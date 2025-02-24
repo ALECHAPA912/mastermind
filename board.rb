@@ -46,7 +46,7 @@ class Board
     trials = 12
     puts "Ingrese un codigo numerico de 4 digitos (del 0-5)"
     human = Human.new(gets.chomp)
-    computerGuess = @computer.code.join('')
+    computerGuess = "1122"
     puts computerGuess
     puts human.guessCheck(computerGuess)
     trials -= 1
@@ -61,6 +61,5 @@ class Board
     else
       puts "LA MAQUINA NO PUDO ADIVINAR EL CODIGO DENTRO DE LOS 12 INTENTOS"
     end
-    p @computer.arrayOfSucess
   end
 end

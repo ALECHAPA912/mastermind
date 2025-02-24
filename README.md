@@ -32,5 +32,7 @@
 # 6: si no se adivina el codigo dentro de los 12 intentos la computadora pierde.
 #
 # VERSION 2.1 (MEJORA DE LA IA PARA LA MAQUINA)
-# se modifica el metodo randomCodeGuesser de la clase Computer para que pueda realizar la adivinanza de manera mas efectiva.
+# se modifica el metodo randomCodeGuesser de la clase Computer para que pueda realizar la adivinanza de manera mas efectiva (creacion propia soy un capo).
 #
+# VERSION 2.2 (VERSION DEFINITIVA)
+# se modifica y optimiza el metodo randomCodeGuesser aplicando la estrategia de Swaszek

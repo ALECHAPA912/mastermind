@@ -1,6 +1,6 @@
 class Player
 
-  attr_reader :code
+  attr_accessor :code
   
   def initialize
     @code = []
